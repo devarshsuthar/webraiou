@@ -30,7 +30,7 @@
 
 
 .splash-img img{
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -201,7 +201,6 @@
         opacity:0;
         z-index: -1;
         margin-top: 3%;
-        border: 1px solid red;
         left: 10;
         gap: 0px;
         position: absolute;
@@ -689,7 +688,7 @@
     /* second-section-container */
     .second-section-container {
         width: 100%;
-        height:170vh;
+        height:175vh;
         display: flex;
         flex-direction: column;
         background-color: rgba(244, 243, 243, 0.427);
@@ -697,7 +696,7 @@
     
     .second-left {
         width: 100%;
-        height:70%;
+        height:85%;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -724,7 +723,7 @@
         width: 90%;
         height: 100px;
         border-radius: 30px;
-        bottom: 26%;
+        bottom:0%;
         left:5%;
         animation-name: Business;
         animation-duration: 1.8s;
@@ -785,7 +784,7 @@
         width: 100%;
     }
     
-    
+/* 
     .second-left .contect {
         position: absolute;
         display: flex;
@@ -796,7 +795,7 @@
         height: 110px;
         border-radius: 30px;
         left:5%;
-        bottom:10%;
+        bottom:12%;
         animation-name: contact;
         animation-duration: 1.8s;
         animation-timing-function: all linear;
@@ -850,7 +849,7 @@
     .text-section span {
         color: white;
         padding-top: 10px;
-    }
+    } */
     
     
     .second-right {
@@ -986,7 +985,7 @@
     /* therd-section-container */
     .therd-section-container {
         width: 100%;
-        height: 160vh;
+        height: 175vh;
         display: flex;
         flex-direction: column;
         padding: 0px 20px;    
@@ -1156,9 +1155,9 @@
     
     .therd-right {
         width: 100%;
-        height: 450px;
+        height: 700px;
         display: flex;
-        align-items: end;
+        align-items:center;
         justify-content: center;
         gap: 10px;
         position: relative;
@@ -1185,9 +1184,8 @@
         width: 50%;
         height: 320px;
         border-radius: 30px;
-        margin-bottom: 1%;
-        margin-right: 5%;
-    
+        margin-bottom: -15%;
+        margin-right: 5%;    
     }
     
     /* four-section-container */
@@ -1930,19 +1928,20 @@
     
     .seven-right{
         width: 100%;
+        height:700px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 15px;
         position: relative;
-        top: 38%;
+        top: 47%;
     }
     
     .color{
         background-color: rgba(255, 228, 196, 0.676);
         width: 20%;
         position: absolute;
-        height: 500px;
+        height: 700px;
         left: 60%;
         border-bottom-right-radius: 90px;
         top: 0;
@@ -2030,6 +2029,7 @@
         display: flex;
         flex-direction: column;
         padding: 0px 20px;
+        margin-top: 100%;
         background-color: rgba(249, 249, 249, 0.452);
     }
     
@@ -2326,7 +2326,8 @@
         height: 150vh;
         display: flex;
         flex-direction: column-reverse;
-        padding: 0px 20px;    
+        padding: 0px 20px;
+        margin-top: 25%;    
     }
     /* left */
     .nine-left {
@@ -2366,7 +2367,7 @@
         border-radius: 30px;
         border: none;
         color: white;
-        margin-top: 85%;
+        margin-top: 95%;
     }
     
     .nine-card{
@@ -2376,7 +2377,7 @@
         border-radius:30px ;
         background-color: rgb(247, 247, 247);
         z-index: 11111111111;
-        top: 37%;
+        top: 42%;
         padding: 0px 50px;
         display: flex;
         flex-direction: column;
@@ -2468,7 +2469,7 @@
         height: 230px;
         object-fit: cover;
         left: 54%;
-        top: 50%;
+        top: 58%;
         border-radius: 30px;
     }
     
@@ -2929,7 +2930,7 @@
         font-size: 18px;
     }
     
-    .last-section-2{
+    /* .last-section-2{
         border-top: 1px solid rgba(255, 255, 255, 0.623);
         width: 100%;
         height: 90px;
@@ -2940,7 +2941,7 @@
     
     .last-section-2 span{
         color: white;
-    }
+    } */
     
 
 
